@@ -1,4 +1,5 @@
-// +build linux,!muslc darwin
+//go:build (linux && !muslc) || (darwin && !arm64)
+// +build linux,!muslc darwin,!arm64
 
 package api
 
