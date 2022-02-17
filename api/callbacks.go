@@ -1,3 +1,6 @@
+//go:build !arm64
+// +build !arm64
+
 package api
 
 // Check https://akrennmair.github.io/golang-cgo-slides/ to learn
